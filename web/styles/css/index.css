@@ -31,6 +31,55 @@ body > div {
   background: #39454e url("../../images/bg_original.png") center bottom no-repeat;
   background-size: cover;
 }
+.header > .main-wrap {
+  padding-top: 34px;
+  padding-bottom: 64px;
+}
+.header .lang {
+  display: block;
+  position: absolute;
+  right: 60px;
+  top: 62px;
+  width: 25px;
+  height: 25px;
+  background: 0 0 no-repeat;
+}
+.header .lang.lang-nl {
+  background-image: url("../../images/flag_nl.png");
+}
+.header .lang.lang-ru {
+  background-image: url("../../images/flag_ru.png");
+}
+.header .lang.lang-en {
+  background-image: url("../../images/flag_en.png");
+}
+.header .main-menu {
+  position: absolute;
+  top: 49px;
+  right: 115px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.header .main-menu > a {
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 13px;
+  border: 2px solid transparent;
+}
+.header .main-menu > a.active {
+  border-bottom-color: white;
+}
+.header .main-menu > a.contact {
+  padding: 13px 18px;
+  margin-left: 15px;
+  border-radius: 25px;
+  border-color: rgba(74, 167, 235, 0.7);
+}
+.header .main-menu > a.contact.active {
+  border-color: white;
+}
 
 .footer {
   background: #39454e;

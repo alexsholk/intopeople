@@ -1,3 +1,9 @@
+<?php
+
+$lang = 'nl';
+$selected = 1;
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,37 +13,7 @@
     <link href="styles/css/index.css" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <div class="main-wrap">
-            <a class="logo" href="/"></a>
-            <nav class="main-menu">
-                <a href="#">Over Ons</a>
-                <a href="#">Nearshore Development</a>
-                <a href="#">Payrolling</a>
-                <a href="#">Detachering</a>
-                <a href="#">Contact</a>
-            </nav>
-            <a class="lang-nl" href="#"></a>
-            <div class="top-text">
-                <div class="sub-menu">
-                    <a href="#">Schrijf je in</a>
-                    <a href="#">Voor onze e-nieuwsbrief</a>
-                </div>
-            </div>
-            <div class="middle-text">
-                <h1>
-                    projectcoördinatie, consultancy
-                    en begeleiding van nearshore activiteiten
-                </h1>
-            </div>
-            <div class="bottom-text">
-                <p>Lees meer over onze ervaring in volgende richtingen:</p>
-                <div class="sub-menu">
-                    <a href="#"></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php require '_header.php' ?>
     <div class="bg-gray">
         <div class="main-wrap">
             <h1>IntoPeople</h1>
@@ -86,15 +62,6 @@
             </form>
         </div>
     </div>
-    <div class="footer">
-        <div class="main-wrap">
-            <div class="logo"></div>
-            <div class="social-links">
-                <a href="#" class="twitter"></a>
-                <a href="#" class="facebook"></a>
-                <a href="#" class="linkedin"></a>
-            </div>
-        </div>
-    </div>
+    <?php require '_footer.php' ?>
 </body>
 </html>
