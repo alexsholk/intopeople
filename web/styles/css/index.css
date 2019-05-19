@@ -4,14 +4,20 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   font: 18px/28px "Lato", sans-serif;
   color: #74767f;
   background-color: #fff;
 }
 
-body > div {
-  width: 100%;
+.main-container {
+  flex: 1 0 auto;
 }
 
 .main-wrap {
@@ -23,11 +29,15 @@ body > div {
 .header .main-wrap {
   height: 760px;
 }
+.header.header-minimal .main-wrap {
+  height: 148px;
+}
 .footer .main-wrap {
   height: 140px;
 }
 
 .header {
+  flex-shrink: 0;
   background: #39454e url("../../images/bg_original.png") center bottom no-repeat;
   background-size: cover;
 }
@@ -82,6 +92,7 @@ body > div {
 }
 
 .footer {
+  flex-shrink: 0;
   background: #39454e;
 }
 

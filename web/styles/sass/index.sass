@@ -28,13 +28,18 @@ $main-wrapper-width:          1200px
   padding: 0
   box-sizing: border-box
 
+html, body
+  height: 100%
+
 body
+  display: flex
+  flex-direction: column
   font: $default-font-size $default-font-family
   color: $default-text-color
   background-color: $bg-default
 
-body > div
-  width: 100%
+.main-container
+  flex: 1 0 auto
 
 .main-wrap
   width: $main-wrapper-width
@@ -43,10 +48,13 @@ body > div
   position: relative
   .header &
     height: 760px
+  .header.header-minimal &
+    height: 148px
   .footer &
     height: 140px
 
 .header
+  flex-shrink: 0
   background: $bg-calm-blue url("../../images/bg_original.png") center bottom no-repeat
   background-size: cover
   & > .main-wrap
@@ -90,6 +98,7 @@ body > div
           border-color: white
 
 .footer
+  flex-shrink: 0
   background: $bg-calm-blue
 
 .bg-gray
