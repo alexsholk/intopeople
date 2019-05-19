@@ -41,6 +41,9 @@ body {
   background: #39454e url("../../images/bg_original.png") center bottom no-repeat;
   background-size: cover;
 }
+.header.header-minimal {
+  background-position: center center;
+}
 .header > .main-wrap {
   padding-top: 34px;
   padding-bottom: 64px;
