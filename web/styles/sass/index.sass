@@ -1,0 +1,112 @@
+// Fonts
+$default-font-family:   'Lato', sans-serif
+$default-font-size:     unquote("18px/28px")
+
+// Colors
+$default-text-color:    #74767f
+$dark-text-color:       #353535
+$light-text-color:      #9097A2
+$inverse-text-color:    #fff
+$accent-text-color:     #ffcd44
+$default-link-color:    #4a90e2
+$dark-title-color:      #131313
+$medium-title-color:    #1a1b1e
+$light-title-color:     #51575C
+$button-text-color:     #212121
+
+$bg-default:            #fff
+$bg-light-gray:         #f3f5f6
+$bg-calm-blue:          #39454e
+
+// Dimensions
+$main-wrapper-width:    1200px
+
+
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  font: $default-font-size $default-font-family
+  color: $default-text-color
+  background-color: $bg-default
+
+body > div
+  width: 100%
+
+.main-wrap
+  width: $main-wrapper-width
+  margin: 0 auto
+  padding: 30px 60px
+  position: relative
+  .header &
+    height: 760px
+  .footer &
+    height: 140px
+
+.header
+  background: $bg-calm-blue url("../../images/bg_original.png") center bottom no-repeat
+  background-size: cover
+
+.footer
+  background: $bg-calm-blue
+
+.bg-gray
+  background-color: $bg-light-gray
+
+.logo
+  display: block
+  width: 205px
+  height: 80px
+  background: transparent url("../../images/logo.png") no-repeat
+
+h1
+  font: normal 60px/72px $default-font-family
+  color: $dark-title-color
+  text-align: center
+  .header &
+    font: bold 36px/54px $default-font-family
+    text-align: center
+    text-transform: uppercase
+    color: $inverse-text-color
+
+h2
+  font: normal 44px/52px $default-font-family
+  color: $medium-title-color
+  text-align: center
+
+h3
+  font: normal 32px/39px $default-font-family
+  color: $medium-title-color
+  text-align: center
+
+h4
+  font: normal 22px/27px $default-font-family
+  color: $light-title-color
+  text-align: center
+
+a
+  color: $default-link-color
+
+.social-links
+  position: absolute
+  top: 50px
+  right: 60px
+  display: flex
+  flex-direction: row
+  & > a
+    display: block
+    width: 40px
+    height: 40px
+    margin-left: 20px
+    background: 0 0 no-repeat
+    &:hover
+      background-position: 0 -40px
+    &.twitter
+      background-image: url("../../images/ic_twitter.png")
+    &.facebook
+      background-image: url("../../images/ic_facebook.png")
+    &.linkedin
+      background-image: url("../../images/ic_linkedIn.png")

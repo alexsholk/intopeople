@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px/28px "Lato", sans-serif;
+  color: #74767f;
+  background-color: #fff;
+}
+
+body > div {
+  width: 100%;
+}
+
+.main-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 60px;
+  position: relative;
+}
+.header .main-wrap {
+  height: 760px;
+}
+.footer .main-wrap {
+  height: 140px;
+}
+
+.header {
+  background: #39454e url("../../images/bg_original.png") center bottom no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background: #39454e;
+}
+
+.bg-gray {
+  background-color: #f3f5f6;
+}
+
+.logo {
+  display: block;
+  width: 205px;
+  height: 80px;
+  background: transparent url("../../images/logo.png") no-repeat;
+}
+
+h1 {
+  font: normal 60px/72px "Lato", sans-serif;
+  color: #131313;
+  text-align: center;
+}
+.header h1 {
+  font: bold 36px/54px "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h2 {
+  font: normal 44px/52px "Lato", sans-serif;
+  color: #1a1b1e;
+  text-align: center;
+}
+
+h3 {
+  font: normal 32px/39px "Lato", sans-serif;
+  color: #1a1b1e;
+  text-align: center;
+}
+
+h4 {
+  font: normal 22px/27px "Lato", sans-serif;
+  color: #51575C;
+  text-align: center;
+}
+
+a {
+  color: #4a90e2;
+}
+
+.social-links {
+  position: absolute;
+  top: 50px;
+  right: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.social-links > a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  background: 0 0 no-repeat;
+}
+.social-links > a:hover {
+  background-position: 0 -40px;
+}
+.social-links > a.twitter {
+  background-image: url("../../images/ic_twitter.png");
+}
+.social-links > a.facebook {
+  background-image: url("../../images/ic_facebook.png");
+}
+.social-links > a.linkedin {
+  background-image: url("../../images/ic_linkedIn.png");
+}
+
+/*# sourceMappingURL=index.css.map */
