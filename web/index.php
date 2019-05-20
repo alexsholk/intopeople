@@ -30,33 +30,7 @@ $header_minimal = false;
                 </p>
             </div>
         </div>
-        <div class="bg-gray">
-            <div class="main-wrap">
-                <h1>Want work with us?</h1>
-                <p class="larger">
-                    We are excited to work with services and complicated applications,<br>
-                    so if your project one of those you will get a small discount
-                </p>
-                <form action="/" method="post">
-                    <div class="form-row">
-                        <div class="form-field half-width">
-                            <input type="text" placeholder="Your name">
-                        </div>
-                        <div class="form-field half-width">
-                            <input type="text" placeholder="Email or phone number">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-field full-width">
-                            <input type="text" placeholder="Comments">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <button type="submit">SEND</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+        <?php require '_contact_form.php' ?>
     </div>
     <?php require '_footer.php' ?>
 </body>

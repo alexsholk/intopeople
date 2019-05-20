@@ -11,6 +11,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  min-width: 1200px;
   font: 18px/28px "Lato", sans-serif;
   color: #74767f;
   background-color: #fff;
@@ -23,7 +24,7 @@ body {
 .main-wrap {
   width: 1200px;
   margin: 0 auto;
-  padding: 30px 60px;
+  padding: 40px 60px;
   position: relative;
 }
 .header .main-wrap {
@@ -34,6 +35,23 @@ body {
 }
 .footer .main-wrap {
   height: 140px;
+}
+
+.middle-width {
+  width: 700px;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form.middle-width {
+  width: 720px;
+}
+
+.extra-margin-bottom {
+  margin-bottom: 80px !important;
 }
 
 .header {
@@ -109,17 +127,31 @@ body {
   height: 80px;
   background: transparent url("../../images/logo.png") no-repeat;
 }
+.header .logo {
+  position: absolute;
+  top: 34px;
+  left: 60px;
+}
+.footer .logo {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
 
 h1 {
   font: normal 60px/72px "Lato", sans-serif;
   color: #131313;
   text-align: center;
+  margin: 20px auto;
 }
 .header h1 {
   font: bold 36px/54px "Lato", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+}
+.main-wrap > h1:first-child {
+  margin-top: 80px;
 }
 
 h2 {
@@ -142,6 +174,54 @@ h4 {
 
 a {
   color: #4a90e2;
+}
+
+p {
+  margin: 20px 0;
+}
+p.larger {
+  font: 22px/27px "Lato", sans-serif;
+}
+p.darker {
+  color: #353535;
+}
+p.align-left {
+  text-align: left;
+}
+p.align-center {
+  text-align: center;
+}
+p.align-right {
+  text-align: right;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+  display: block;
+  width: 100%;
+  height: 60px;
+  padding: 19px 20px;
+  border-radius: 4px;
+  font: 18px/28px "Lato", sans-serif;
+  color: #51575C;
+  border: none;
+}
+
+button,
+input[type=submit],
+input[type=reset] {
+  display: block;
+  height: 50px;
+  min-width: 180px;
+  border-radius: 25px;
+  background-color: #ffcd44;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #212121;
+  font: bold 13px/16px "Lato", sans-serif;
+  cursor: pointer;
 }
 
 .social-links {
@@ -169,6 +249,22 @@ a {
 }
 .social-links > a.linkedin {
   background-image: url("../../images/ic_linkedIn.png");
+}
+
+.map-container {
+  height: 300px;
+  background: url("../../images/map.png") center center no-repeat;
+  background-size: cover;
+}
+
+.form-row {
+  margin: 20px -10px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.form-row .form-field {
+  padding: 0 10px;
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -9,7 +9,11 @@ $selected = 5;
 <body>
 <?php require '_header.php' ?>
 <div class="main-container">
-    <!-- TODO -->
+    <div class="bg-gray map-container">
+        <!-- TODO insert map code -->
+    </div>
+
+    <?php require '_contact_form.php' ?>
 </div>
 <?php require '_footer.php' ?>
 </body>

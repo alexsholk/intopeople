@@ -1,6 +1,7 @@
 // Fonts
 $default-font-family:         'Lato', sans-serif
 $default-font-size:           unquote("18px/28px")
+$larger-font-size:            unquote("22px/27px")
 
 // Colors
 $default-text-color:          #74767f
@@ -34,6 +35,7 @@ html, body
 body
   display: flex
   flex-direction: column
+  min-width: $main-wrapper-width
   font: $default-font-size $default-font-family
   color: $default-text-color
   background-color: $bg-default
@@ -44,7 +46,7 @@ body
 .main-wrap
   width: $main-wrapper-width
   margin: 0 auto
-  padding: 30px 60px
+  padding: 40px 60px
   position: relative
   .header &
     height: 760px
@@ -52,6 +54,24 @@ body
     height: 148px
   .footer &
     height: 140px
+
+%middle-width
+  width: 700px
+
+%centered
+  margin-left: auto
+  margin-right: auto
+
+.middle-width
+  @extend %middle-width
+  @at-root form#{&}
+    width: 720px
+
+.centered
+  @extend %centered
+
+.extra-margin-bottom
+  margin-bottom: 80px !important
 
 .header
   flex-shrink: 0
@@ -111,16 +131,27 @@ body
   width: 205px
   height: 80px
   background: transparent url("../../images/logo.png") no-repeat
+  .header &
+    position: absolute
+    top: 34px
+    left: 60px
+  .footer &
+    position: absolute
+    top: 30px
+    left: 60px
 
 h1
   font: normal 60px/72px $default-font-family
   color: $dark-title-color
   text-align: center
+  margin: 20px auto
   .header &
     font: bold 36px/54px $default-font-family
     text-align: center
     text-transform: uppercase
     color: $inverse-text-color
+  .main-wrap > &:first-child
+    margin-top: 80px
 
 h2
   font: normal 44px/52px $default-font-family
@@ -139,6 +170,52 @@ h4
 
 a
   color: $default-link-color
+
+p
+  margin: 20px 0
+  &.larger
+    font: $larger-font-size $default-font-family
+  &.darker
+    color: $dark-text-color
+  &.align-left
+    text-align: left
+  &.align-center
+    text-align: center
+  &.align-right
+    text-align: right
+
+%text-input
+  display: block
+  width: 100%
+  height: 60px
+  padding: 19px 20px
+  border-radius: 4px
+  font: $default-font-size $default-font-family
+  color: $light-title-color
+  border: none
+
+%button
+  display: block
+  height: 50px
+  min-width: 180px
+  border-radius: 25px
+  background-color: $accent-text-color
+  border: none
+  text-transform: uppercase
+  letter-spacing: 1px
+  color: $button-text-color
+  font: bold 13px/16px $default-font-family
+  cursor: pointer
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+  @extend %text-input
+
+button,
+input[type="submit"],
+input[type="reset"]
+  @extend %button
 
 .social-links
   position: absolute
@@ -160,3 +237,16 @@ a
       background-image: url("../../images/ic_facebook.png")
     &.linkedin
       background-image: url("../../images/ic_linkedIn.png")
+
+.map-container
+  height: 300px
+  background: url("../../images/map.png") center center no-repeat
+  background-size: cover
+
+.form-row
+  margin: 20px -10px
+  display: flex
+  flex-flow: row nowrap
+  .form-field
+    padding: 0 10px
+    flex-grow: 1
