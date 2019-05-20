@@ -77,12 +77,14 @@ body
   flex-shrink: 0
   background: $bg-calm-blue url("../../images/bg_original.png") center bottom no-repeat
   background-size: cover
+  p
+    margin: 0
   &.header-minimal
     background-position: center center
-  & > .main-wrap
+  > .main-wrap
     padding-top: 34px
     padding-bottom: 64px
-  & .lang
+  .lang
     display: block
     position: absolute
     right: 60px
@@ -96,13 +98,13 @@ body
       background-image: url("../../images/flag_ru.png")
     &.lang-en
       background-image: url("../../images/flag_en.png")
-  & .main-menu
+  .main-menu
     position: absolute
     top: 49px
     right: 115px
     display: flex
     flex-flow: row nowrap
-    & > a
+    > a
       color: $main-menu-link-color
       text-decoration: none
       font-size: 16px
@@ -118,6 +120,34 @@ body
         border-color: $btn-contact-border-color
         &.active
           border-color: white
+  .top-text
+    position: absolute
+    top: 148px
+    right: 60px
+  .middle-text
+    margin-top: 287px
+    > h1
+      letter-spacing: 0.25px
+  .bottom-text
+    position: absolute
+    top: 654px
+    left: 60px
+    p
+      font: 15px/18px $default-font-family
+      letter-spacing: 4px
+      color: $inverse-text-color
+      margin-bottom: 8px
+  .sub-menu
+    font: bold 13px/16px $default-font-family
+    display: flex
+    flex-flow: row nowrap
+    a
+      color: $accent-text-color
+      text-decoration: none
+      margin-right: 40px
+      letter-spacing: 2px
+      &:last-child
+        margin-right: 0
 
 .footer
   flex-shrink: 0
@@ -223,7 +253,7 @@ input[type="reset"]
   right: 60px
   display: flex
   flex-direction: row
-  & > a
+  > a
     display: block
     width: 40px
     height: 40px

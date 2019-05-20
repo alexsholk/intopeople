@@ -59,6 +59,9 @@ form.middle-width {
   background: #39454e url("../../images/bg_original.png") center bottom no-repeat;
   background-size: cover;
 }
+.header p {
+  margin: 0;
+}
 .header.header-minimal {
   background-position: center center;
 }
@@ -110,6 +113,42 @@ form.middle-width {
 }
 .header .main-menu > a.contact.active {
   border-color: white;
+}
+.header .top-text {
+  position: absolute;
+  top: 148px;
+  right: 60px;
+}
+.header .middle-text {
+  margin-top: 287px;
+}
+.header .middle-text > h1 {
+  letter-spacing: 0.25px;
+}
+.header .bottom-text {
+  position: absolute;
+  top: 654px;
+  left: 60px;
+}
+.header .bottom-text p {
+  font: 15px/18px "Lato", sans-serif;
+  letter-spacing: 4px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.header .sub-menu {
+  font: bold 13px/16px "Lato", sans-serif;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.header .sub-menu a {
+  color: #ffcd44;
+  text-decoration: none;
+  margin-right: 40px;
+  letter-spacing: 2px;
+}
+.header .sub-menu a:last-child {
+  margin-right: 0;
 }
 
 .footer {

@@ -25,14 +25,16 @@ $header_minimal = $header_minimal ?? true;
             </div>
             <div class="middle-text">
                 <h1>
-                    projectcoördinatie, consultancy
+                    projectcoördinatie, consultancy<br>
                     en begeleiding van nearshore activiteiten
                 </h1>
             </div>
             <div class="bottom-text">
                 <p>Lees meer over onze ervaring in volgende richtingen:</p>
                 <div class="sub-menu">
-                    <a href="#"></a>
+                    <a href="#">Nearshore Development</a>
+                    <a href="#">Payrolling</a>
+                    <a href="#">Detachering</a>
                 </div>
             </div>
         <?php endif ?>
