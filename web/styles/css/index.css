@@ -197,18 +197,21 @@ h2 {
   font: normal 44px/52px "Lato", sans-serif;
   color: #1a1b1e;
   text-align: center;
+  margin: 20px auto;
 }
 
 h3 {
   font: normal 32px/39px "Lato", sans-serif;
   color: #1a1b1e;
   text-align: center;
+  margin: 20px auto;
 }
 
 h4 {
   font: normal 22px/27px "Lato", sans-serif;
   color: #51575C;
   text-align: center;
+  margin: 20px auto;
 }
 
 a {
@@ -304,6 +307,26 @@ input[type=reset] {
 .form-row .form-field {
   padding: 0 10px;
   flex-grow: 1;
+}
+
+.multi-column {
+  padding: 0 30px 20px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.multi-column > .column {
+  flex-basis: 280px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.intro .multi-column h4 {
+  margin-top: 0;
+  text-align: left;
+}
+.intro .multi-column p {
+  font: 16px/20px "Lato", sans-serif;
+  letter-spacing: 0.5px;
+  color: #9097A2;
 }
 
 /*# sourceMappingURL=index.css.map */
