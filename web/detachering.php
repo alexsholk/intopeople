@@ -10,6 +10,7 @@ $selected = 4;
 <?php require '_header.php' ?>
 <div class="main-container">
     <!-- TODO -->
+    <?php require '_contact_form.php' ?>
 </div>
 <?php require '_footer.php' ?>
 </body>
