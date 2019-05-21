@@ -1,4 +1,4 @@
-<div class="intro bg-gray">
+<div class="bg-gray">
     <div class="main-wrap">
         <h1>IntoPeople</h1>
         <div class="middle-width centered extra-margin-bottom">

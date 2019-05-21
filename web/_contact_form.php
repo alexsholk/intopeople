@@ -1,4 +1,4 @@
-<div class="bg-gray contact-form">
+<div class="bg-gray">
     <div class="main-wrap">
         <h1>Want work with us?</h1>
         <p class="middle-width centered extra-margin-bottom larger darker align-center">

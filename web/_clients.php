@@ -1,4 +1,4 @@
-<div class="clients bg-white">
+<div>
     <div class="main-wrap">
         <h1>Clients</h1>
         <div class="middle-width centered extra-margin-bottom">
