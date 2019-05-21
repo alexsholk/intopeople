@@ -9,13 +9,13 @@
             </p>
         </div>
         <div class="gallery">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
+            <div class="item"><a href="#"><img src="images/clients/brand_1_1.png"></a></div>
+            <div class="item"><img src="images/clients/brand_1_2.png"></div>
+            <div class="item"><img src="images/clients/brand_1_3.png"></div>
+            <div class="item"><img src="images/clients/brand_1_4.png"></div>
+            <div class="item"><img src="images/clients/brand_2_1.png"></div>
+            <div class="item"><img src="images/clients/brand_2_2.png"></div>
+            <div class="item"><img src="images/clients/brand_2_3.png"></div>
         </div>
     </div>
 </div>
