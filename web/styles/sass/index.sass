@@ -208,9 +208,12 @@ h4
 
 a
   color: $default-link-color
+  text-decoration: none
 
 p
   margin: 20px 0
+  & + p
+    margin-top: 28px // = line-height
   &.larger
     font: $larger-font-size $default-font-family
   &.darker
@@ -341,5 +344,48 @@ input[type="reset"]
       max-width: 100%
       max-height: 100%
 
-.incut
+.two-cols
+  margin-bottom: 40px
+  display: flex
+  flex-flow: row nowrap
+  align-content: stretch
+  align-items: flex-start
   @extend %wide-width
+  &:last-child
+    margin-bottom: 60px
+  > .left-col
+    flex: 0 280px
+    margin-right: 90px
+  > .right-col
+    flex: 1
+  &.incut
+    > .left-col
+      flex-basis: 370px
+  h3 + h4
+    margin-top: -10px
+
+.incut
+  margin: 80px 0 !important
+  h2
+    margin-top: 0
+  ul
+    border-left: 1px solid #dde1e5
+    list-style: none
+    margin-left: 10px
+    > li
+      margin-bottom: 28px
+      line-height: 20px
+      padding-left: 50px
+      position: relative
+      &:before
+        vertical-align: top
+        content: ''
+        position: absolute
+        top: 0
+        left: -10px
+        display: block
+        margin-right: 40px
+        width: 20px
+        height: 20px
+        border-radius: 50%
+        background-color: #dde1e5

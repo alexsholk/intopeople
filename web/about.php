@@ -40,11 +40,11 @@ $selected = 1;
     </div>
     <div class="bg-gray">
         <div class="main-wrap">
-            <div class="incut">
-                <div class="incut-sidebar">
+            <div class="two-cols incut">
+                <div class="left-col">
                     <img src="images/misc/img-01.jpg">
                 </div>
-                <div class="incut-content">
+                <div class="right-col">
                     <h2>Kernactiviteiten</h2>
                     <ul>
                         <li><a href="#">Nearshore Development</a></li>
@@ -56,7 +56,142 @@ $selected = 1;
         </div>
     </div>
     <div>
+        <div class="main-wrap">
+            <div class="two-cols">
+                <div class="left-col">
+                    <h3>Visie & missie</h3>
+                    <h4>Missie</h4>
+                </div>
+                <div class="right-col">
+                    <p>
+                        IntoPeople biedt haar klanten aantrekkelijke en creatieve oplossingen.
+                        <br><br>
+                        Wij willen elk bedrijf, groot en klein, IT oplossingen bieden. Om dit te bereiken bieden
+                        wij laagdrempelige oplossingen op maat door middel van operationele kennis, zakelijke
+                        expertise, flexibiliteit en creativiteit.
+                    </p>
+                </div>
+            </div>
+            <div class="two-cols">
+                <div class="left-col">
+                    <h4>Visie</h4>
+                </div>
+                <div class="right-col">
+                    <p>
+                        De Europese kenniseconomie in stand houden en verder uit te bouwen op basis van een gedegen
+                        samenwerking tussen Nederland en Oost Europa.
+                    </p>
+                </div>
+            </div>
+
+            <div class="two-cols">
+                <div class="left-col">
+                    <h3>Diensten</h3>
+                    <h4><a href="#">Nearshore software development</a></h4>
+                </div>
+                <div class="right-col">
+                    <p>
+                        IntoPeople begeleidt bij het uitbesteden van projecten en/of selecteert Software Development
+                        Centers in Rusland, Wit-Rusland en Oekraïne. IntoPeople heeft een drietal centra met in
+                        totaal 450 software ontwikkelaars tot haar vaste contract partners.
+                    </p>
+                </div>
+            </div>
+            <div class="two-cols">
+                <div class="left-col">
+                    <h4><a href="#">Detachering</a></h4>
+                </div>
+                <div class="right-col">
+                    <p>
+                        Bij het detacheren van werknemers zijn de werknemers in dienst van IntoPeople. Zij
+                        ontwikkelen software bij u op kantoor. Detachering gebeurt op basis van een uurtarief,
+                        u bepaalt daardoor zelf hoeveel uur de gedetacheerde werkt en hiermee houdt u uw kosten in
+                        de hand. Ook bij ziekte of andere onverwachte zaken betaalt u alleen de gewerkte uren.
+                    </p>
+                </div>
+            </div>
+            <div class="two-cols">
+                <div class="left-col">
+                    <h4><a href="#">Payrolling</a></h4>
+                </div>
+                <div class="right-col">
+                    <p>
+                        Payrolling is in de basis hetzelfde als detachering met als verschil dat u één vast
+                        bedrag betaald. U kunt zelf een bedrag bepalen wat u kunt en wilt betalen. De kosten en
+                        risico's zijn hierbij hetzelfde als het in dienst nemen van eigen personeel maar u besteedt
+                        wel de administratieve rompslomp uit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="two-cols">
+                <div class="left-col">
+                    <h3>Servicemodel</h3>
+                </div>
+                <div class="right-col">
+                    <p>
+                        Wij werken binnen projecten altijd SMART. Wij werken dus altijd:
+                        <br><br>
+                        Specifiek; samen met u wordt het project uiteengezet. De doelstelling van het project
+                        wordt hier vastgesteld.
+                        <br><br>
+                        Meetbaar; de randvoorwaarden worden zowel productief als financieel bepaald om zo uw
+                        doelstelling te behalen.
+                        <br><br>
+                        Acceptabel; beide partijen geven aan wat de mogelijkheden zijn en gaan dit contractueel aan.
+                        <br><br>
+                        Realistisch; de haalbaarheid van projecten worden intern geverifieerd of in samenwerking
+                        met de nearshore centra.
+                        <br><br>
+                        Tijdgebonden; een project kent een duidelijk begin en eind, zo weet u precies wanneer uw
+                        software klaar is.
+                    </p>
+                </div>
+            </div>
+
+            <div class="two-cols">
+                <div class="left-col">
+                    <h3>Overeenkomst (AVG)</h3>
+                </div>
+                <div class="right-col">
+                    <p>
+                        Wij werken binnen projecten altijd SMART. Wij werken dus altijd:
+                        <br><br>
+                        Specifiek; samen met u wordt het project uiteengezet. De doelstelling van het project
+                        wordt hier vastgesteld.
+                        <br><br>
+                        Meetbaar; de randvoorwaarden worden zowel productief als financieel bepaald om zo uw
+                        doelstelling te behalen.
+                        <br><br>
+                        Acceptabel; beide partijen geven aan wat de mogelijkheden zijn en gaan dit contractueel aan.
+                        <br><br>
+                        Realistisch; de haalbaarheid van projecten worden intern geverifieerd of in samenwerking
+                        met de nearshore centra.
+                        <br><br>
+                        Tijdgebonden; een project kent een duidelijk begin en eind, zo weet u precies wanneer uw
+                        software klaar is.
+                    </p>
+                    <p>
+                        Verwerkersovereenkomst (AVG)
+                        <br><br>
+                        Volgens de Algemene Verordening Gegevensbescherming
+                        <br><br>
+                        Artikel 1. Inleidende bepalingen
+                        <br><br>
+                        Artikel 1.1.
+                        De begrippen in deze Verwerkersovereenkomst die worden gedefinieerd in de AVG, hebben de
+                        betekenis zoals daarin wordt omschreven.
+                        <br><br>
+                        Artikel 1.2.
+                        Waar in deze Verwerkersovereenkomst wordt gerefereerd aan een bepaling uit de Wbp, wordt per
+                        25 mei 2018 de corresponderende bepaling uit de Algemene Verordening Gegevensbescherming
+                        (de “AVG “) bedoeld.<br>
+                        <a href="#">Bekijk alles</a>
+                    </p>
+                </div>
+            </div>
         <!-- TODO -->
+        </div>
     </div>
     <?php require '_contact_form.php' ?>
 </div>
