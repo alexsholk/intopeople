@@ -77,6 +77,11 @@ body
 .extra-margin-bottom
   margin-bottom: 80px !important
 
+%default-color-transition
+  transition-property: color, border-top-color, border-right-color, border-bottom-color, border-left-color
+  transition-duration: 300ms
+  transition-timing-function: ease-out
+
 .header
   flex-shrink: 0
   background: $bg-calm-blue url("../../images/bg_original.png") center bottom no-repeat
@@ -113,17 +118,23 @@ body
       text-decoration: none
       font-size: 16px
       line-height: 20px
-      padding: 13px
-      border: 2px solid transparent
-      &.active
-        border-bottom-color: white
+      padding: 15px 15px 13px
+      border-bottom: 2px solid transparent
+      &.active,
+      &:hover
+        color: #fff
+        border-bottom: 2px solid white
+        @extend %default-color-transition
       &.contact
         padding: 13px 18px
         margin-left: 15px
         border-radius: 25px
-        border-color: $btn-contact-border-color
-        &.active
+        border: 2px solid $btn-contact-border-color
+        @extend %default-color-transition
+        &.active,
+        &:hover
           border-color: white
+          color: #fff
   .top-text
     position: absolute
     top: 148px
@@ -283,8 +294,10 @@ input[type="reset"]
     height: 40px
     margin-left: 20px
     background: 0 0 no-repeat
+    transition: opacity 200ms ease-out
     &:hover
-      background-position: 0 -40px
+      opacity: 0.7
+      //background-position: 0 -40px
     &.twitter
       background-image: url("../../images/ic_twitter.png")
     &.facebook
@@ -306,7 +319,7 @@ input[type="reset"]
     flex-grow: 1
 
 .contact-form
-  margin: 80px 0 104px
+  margin: 80px -10px 104px
 
 .multi-column
   padding: 0 30px 20px

@@ -60,6 +60,12 @@ form.middle-width {
   margin-bottom: 80px !important;
 }
 
+.header .main-menu > a.contact, .header .main-menu > a.active, .header .main-menu > a:hover {
+  transition-property: color, border-top-color, border-right-color, border-bottom-color, border-left-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
 .header {
   flex-shrink: 0;
   background: #39454e url("../../images/bg_original.png") center bottom no-repeat;
@@ -105,20 +111,22 @@ form.middle-width {
   text-decoration: none;
   font-size: 16px;
   line-height: 20px;
-  padding: 13px;
-  border: 2px solid transparent;
+  padding: 15px 15px 13px;
+  border-bottom: 2px solid transparent;
 }
-.header .main-menu > a.active {
-  border-bottom-color: white;
+.header .main-menu > a.active, .header .main-menu > a:hover {
+  color: #fff;
+  border-bottom: 2px solid white;
 }
 .header .main-menu > a.contact {
   padding: 13px 18px;
   margin-left: 15px;
   border-radius: 25px;
-  border-color: rgba(74, 167, 235, 0.7);
+  border: 2px solid rgba(74, 167, 235, 0.7);
 }
-.header .main-menu > a.contact.active {
+.header .main-menu > a.contact.active, .header .main-menu > a.contact:hover {
   border-color: white;
+  color: #fff;
 }
 .header .top-text {
   position: absolute;
@@ -304,9 +312,10 @@ input[type=reset] {
   height: 40px;
   margin-left: 20px;
   background: 0 0 no-repeat;
+  transition: opacity 200ms ease-out;
 }
 .social-links > a:hover {
-  background-position: 0 -40px;
+  opacity: 0.7;
 }
 .social-links > a.twitter {
   background-image: url("../../images/ic_twitter.png");
@@ -335,7 +344,7 @@ input[type=reset] {
 }
 
 .contact-form {
-  margin: 80px 0 104px;
+  margin: 80px -10px 104px;
 }
 
 .multi-column {
