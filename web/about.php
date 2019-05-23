@@ -11,9 +11,9 @@ $selected = 1;
 <div class="main-container">
     <div>
         <div class="main-wrap">
-            <h1>Algemene informatie over IntoPeople</h1>
             <div class="middle-width centered">
-                <p class="extra-margin-bottom">
+                <h1>Algemene informatie over IntoPeople</h1>
+                <p>
                     IntoPeople is een ambitieus en internationaal gerichte onderneming. Zij biedt op maat IT oplossingen
                     aan uiteenlopende bedrijven . Zij doet dit middels projectbegeleiding van nearshore activiteiten, het
                     detacheren en payrollen van IT personeel óf een combinatie van dit alles.
@@ -27,9 +27,10 @@ $selected = 1;
                 </p>
                 <h3>Werkwijze</h3>
                 <p>
-                    Als u besluit om uw software ontwikkeling uit te besteden dan kijken wij samen met u wat de beste oplossing is, dit kan zijn;
+                    Als u besluit om uw software ontwikkeling uit te besteden dan kijken wij samen met u wat de beste
+                    oplossing is, dit kan zijn;
                 </p>
-                <ul class="dash">
+                <ul>
                     <li>nearshore development</li>
                     <li><a href="#">payrolling</a></li>
                     <li><a href="#">detachering</a></li>

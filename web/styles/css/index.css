@@ -38,7 +38,7 @@ body {
   height: 140px;
 }
 
-.main-wrap > h1:first-child, .middle-width {
+.middle-width {
   width: 700px;
 }
 
@@ -187,7 +187,7 @@ h1 {
   font: normal 60px/72px "Lato", sans-serif;
   color: #131313;
   text-align: center;
-  margin: 20px auto;
+  margin: 80px 0 20px;
 }
 .header h1 {
   font: bold 36px/54px "Lato", sans-serif;
@@ -195,29 +195,30 @@ h1 {
   text-transform: uppercase;
   color: #fff;
 }
-.main-wrap > h1:first-child {
-  margin-top: 80px;
+
+h4, h3, h2 {
+  margin: 80px 0 20px;
+}
+h4:first-child, h3:first-child, h2:first-child {
+  margin-top: 20px;
 }
 
 h2 {
   font: normal 44px/52px "Lato", sans-serif;
   color: #1a1b1e;
   text-align: left;
-  margin: 20px auto;
 }
 
 h3 {
   font: normal 32px/39px "Lato", sans-serif;
   color: #1a1b1e;
   text-align: left;
-  margin: 20px auto;
 }
 
 h4 {
   font: normal 22px/27px "Lato", sans-serif;
   color: #51575C;
   text-align: left;
-  margin: 20px auto;
 }
 
 a {
@@ -252,10 +253,10 @@ ul, ol {
   margin: 20px 0;
 }
 
-ul.dash {
+ul {
   list-style-type: none;
 }
-ul.dash > li:before {
+ul > li:before {
   display: inline-block;
   content: "— ";
   width: 1.4em;
