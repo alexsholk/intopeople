@@ -43,7 +43,7 @@ $selected = 1;
         <div class="main-wrap">
             <div class="two-cols incut">
                 <div class="left-col">
-                    <img src="images/misc/img-01.jpg">
+                    <p><img src="images/misc/img-01.jpg"></p>
                 </div>
                 <div class="right-col">
                     <h2>Kernactiviteiten</h2>
@@ -152,26 +152,36 @@ $selected = 1;
 
             <div class="two-cols">
                 <div class="left-col">
-                    <h3>Overeenkomst (AVG)</h3>
+                    <h3>Waarom Oost Europa?</h3>
                 </div>
                 <div class="right-col">
                     <p>
-                        Wij werken binnen projecten altijd SMART. Wij werken dus altijd:
-                        <br><br>
-                        Specifiek; samen met u wordt het project uiteengezet. De doelstelling van het project
-                        wordt hier vastgesteld.
-                        <br><br>
-                        Meetbaar; de randvoorwaarden worden zowel productief als financieel bepaald om zo uw
-                        doelstelling te behalen.
-                        <br><br>
-                        Acceptabel; beide partijen geven aan wat de mogelijkheden zijn en gaan dit contractueel aan.
-                        <br><br>
-                        Realistisch; de haalbaarheid van projecten worden intern geverifieerd of in samenwerking
-                        met de nearshore centra.
-                        <br><br>
-                        Tijdgebonden; een project kent een duidelijk begin en eind, zo weet u precies wanneer uw
-                        software klaar is.
+                        Onze werknemers komen uit Wit-Rusland, Rusland en de Oekraïne. De nearshore projecten worden
+                        uitbesteed aan ontwikkel teams in Wit-Rusland, Rusland en de Oekraïne, waarom?
                     </p>
+                    <ul>
+                        <li>Directe beschikbaarheid van zeer hoog opgeleid personeel</li>
+                        <li>Goedkoper dan Nederlandse software ontwikkeling</li>
+                        <li>Klantgerichte projecten</li>
+                        <li>Weinig tijdsverschil met Nederland, dus communicatie in werktijd en niet in uw en
+                            onze vrije tijd</li>
+                        <li>Hoge arbeidsethos</li>
+                        <li>Vergelijkbare cultuur als met de Nederlandse cultuur</li>
+                        <li>Goede resultaten</li>
+                        <li>De juiste combinatie van kwaliteit, geld en tijd</li>
+                        <li>Zeer gedreven om het juiste resultaat te leveren</li>
+                    </ul>
+                    <p>
+                        Low risk – low price alternatief
+                    </p>
+                </div>
+            </div>
+
+            <div class="two-cols">
+                <div class="left-col">
+                    <h3>Overeenkomst (AVG)</h3>
+                </div>
+                <div class="right-col">
                     <p>
                         Verwerkersovereenkomst (AVG)
                         <br><br>
