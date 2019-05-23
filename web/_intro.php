@@ -1,7 +1,7 @@
 <div class="bg-gray">
     <div class="main-wrap">
-        <h1>IntoPeople</h1>
         <div class="middle-width centered extra-margin-bottom">
+            <h1>IntoPeople</h1>
             <p class="align-center">
                 provides software solutions for everyone. Our solutions consist of nearshore development,
                 flexible staffing, payrolling and a combination of those services. We offer you security,

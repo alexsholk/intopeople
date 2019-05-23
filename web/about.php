@@ -11,7 +11,7 @@ $selected = 1;
 <div class="main-container">
     <div>
         <div class="main-wrap">
-            <div class="middle-width centered">
+            <div class="middle-width centered extra-margin-bottom">
                 <h1>Algemene informatie over IntoPeople</h1>
                 <p>
                     IntoPeople is een ambitieus en internationaal gerichte onderneming. Zij biedt op maat IT oplossingen
@@ -191,7 +191,6 @@ $selected = 1;
                     </p>
                 </div>
             </div>
-        <!-- TODO -->
         </div>
     </div>
     <?php require '_contact_form.php' ?>
