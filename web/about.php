@@ -39,6 +39,7 @@ $selected = 1;
             </div>
         </div>
     </div>
+
     <div class="bg-gray">
         <div class="main-wrap">
             <div class="two-cols incut">
@@ -56,6 +57,7 @@ $selected = 1;
             </div>
         </div>
     </div>
+
     <div>
         <div class="main-wrap">
             <div class="two-cols">
@@ -73,6 +75,7 @@ $selected = 1;
                     </p>
                 </div>
             </div>
+
             <div class="two-cols">
                 <div class="left-col">
                     <h4>Visie</h4>
