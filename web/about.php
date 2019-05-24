@@ -24,7 +24,7 @@ $selected = 1;
                     <br><br>
                     Wat IntoPeople onderscheidt is de eenvoudige maar doeltreffende aanpak, persoonlijke begeleiding
                     van projecten als zo wel de persoonlijke begeleiding van de werknemers.
-                    <br><br><br><br>
+                    <br><br><br><br><br>
                 </p>
                 <h3>Werkwijze</h3>
                 <p>

@@ -38,7 +38,7 @@ $selected = 5;
                                 <a href="#">Vadim Konovalov</a>
                             </p>
                         </div>
-                        <div class="right-col">
+                        <div class="right-col lighter smaller">
                             <h4>Telefoon:</h4>
                             <p>
                                 +31 (0) 416 673955

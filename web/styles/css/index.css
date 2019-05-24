@@ -417,6 +417,9 @@ input[type=reset] {
 .two-cols .two-cols {
   margin: 0;
 }
+.two-cols .two-cols .left-col {
+  margin-right: 60px;
+}
 .two-cols > .left-col {
   flex: 0 280px;
   margin-right: 90px;
@@ -432,6 +435,9 @@ input[type=reset] {
 }
 .two-cols h3 + h4 {
   margin-top: -10px;
+}
+.two-cols .left-col h1 {
+  text-align: left;
 }
 .two-cols .left-col img {
   margin: 20px 0;
