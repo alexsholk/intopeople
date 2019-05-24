@@ -44,7 +44,7 @@ $selected = 1;
         <div class="main-wrap">
             <div class="two-cols incut">
                 <div class="left-col">
-                    <p><img src="images/misc/img-01.jpg"></p>
+                    <img src="images/misc/img-01.jpg">
                 </div>
                 <div class="right-col">
                     <h2>Kernactiviteiten</h2>

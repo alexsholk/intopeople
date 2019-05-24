@@ -36,7 +36,7 @@ $selected = 2;
         <div class="main-wrap">
             <div class="two-cols incut">
                 <div class="left-col">
-                    <p><img src="images/misc/img-02.jpg"></p>
+                    <img src="images/misc/img-02.jpg">
                 </div>
                 <div class="right-col">
                     <h2>Wat kan u verwachten?</h2>
@@ -118,7 +118,7 @@ $selected = 2;
             <div class="two-cols">
                 <div class="left-col">
                     <h3>Partners</h3>
-                    <h4 class="extra-margin-bottom">Strategische partnerovereen-komst</h4>
+                    <h4>Strategische partnerovereen-komst</h4>
                     <img src="images/misc/img-03.jpg">
                 </div>
                 <div class="right-col">

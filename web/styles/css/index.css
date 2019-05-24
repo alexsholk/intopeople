@@ -420,21 +420,30 @@ input[type=reset] {
 .two-cols h3 + h4 {
   margin-top: -10px;
 }
+.two-cols .left-col img {
+  margin: 20px 0;
+}
+.two-cols .left-col h4 + img {
+  margin-top: 80px;
+}
 
 .incut {
   margin-top: 80px;
   margin-bottom: 80px;
 }
 .incut ul {
-  border-left: 1px solid #dde1e5;
   list-style: none;
   margin-left: 10px;
 }
 .incut ul > li {
-  margin-bottom: 28px;
+  border-left: 1px solid #dde1e5;
   line-height: 20px;
   padding-left: 50px;
+  padding-bottom: 28px;
   position: relative;
+}
+.incut ul > li:last-child {
+  border-left: none;
 }
 .incut ul > li:before {
   vertical-align: top;
