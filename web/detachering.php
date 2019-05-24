@@ -9,7 +9,14 @@ $selected = 4;
 <body>
 <?php require '_header.php' ?>
 <div class="main-container">
-    <!-- TODO -->
+    <div>
+        <div class="main-wrap">
+            <div class="middle-width centered extra-margin-bottom">
+                <h1>Detachering</h1>
+                <p>This page is almost the same as the others.</p>
+            </div>
+        </div>
+    </div>
     <?php require '_contact_form.php' ?>
 </div>
 <?php require '_footer.php' ?>

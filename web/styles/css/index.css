@@ -205,10 +205,7 @@ h1 {
 }
 
 h4, h3, h2 {
-  margin: 80px 0 20px;
-}
-h4:first-child, h3:first-child, h2:first-child {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 h2 {
@@ -234,17 +231,27 @@ a {
   text-decoration: none;
 }
 
+.larger p, .larger {
+  font: 22px/27px "Lato", sans-serif;
+}
+
+.smaller p, .smaller {
+  font: 16px/19px "Lato", sans-serif;
+}
+
+.darker p, .darker {
+  color: #353535;
+}
+
+.lighter p, .lighter {
+  color: #9097A2;
+}
+
 p {
   margin: 20px 0;
 }
 p + p {
   margin-top: 28px;
-}
-p.larger {
-  font: 22px/27px "Lato", sans-serif;
-}
-p.darker {
-  color: #353535;
 }
 p.align-left {
   text-align: left;
@@ -407,6 +414,9 @@ input[type=reset] {
 .two-cols:last-child {
   margin-bottom: 60px;
 }
+.two-cols .two-cols {
+  margin: 0;
+}
 .two-cols > .left-col {
   flex: 0 280px;
   margin-right: 90px;
@@ -416,6 +426,9 @@ input[type=reset] {
 }
 .two-cols.incut > .left-col {
   flex-basis: 370px;
+}
+.two-cols h1 {
+  margin-top: 20px;
 }
 .two-cols h3 + h4 {
   margin-top: -10px;
